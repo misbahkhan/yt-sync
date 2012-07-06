@@ -1,11 +1,9 @@
 {
-  "name": "nodeapps-socket.io",
+  "name": "yt-sync",
   "author": {
-    "name": "Nodejitsu Inc.",
-    "email": "support@nodejitsu.com"
   },
   "scripts": {
-    "start": "./bin/server"
+    "start": "./bin/server.js"
   },
   "version": "0.1.1",
   "dependencies": {
