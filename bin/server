@@ -1,0 +1,12 @@
+//
+// youtube-sync http server
+//
+
+//
+// TODO: Require youtube-sync lib and start server
+//
+
+
+var ytsync = require('./lib/youtube-sync');
+
+ytsync.createServer().listen(8000);
