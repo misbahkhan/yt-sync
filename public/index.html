@@ -1,19 +1,10 @@
 <!doctype HTML>
 <html>
   <head>
-    <!-- Socket.io serves its client-side code over this route automatically -->
     <script src="/socket.io/socket.io.js"></script>
     <script src="/jquery.js"></script>
-
-    <script>
-      var socket = io.connect('/');
-      socket.on('ping', function (data) {
-        $("#msg").html(data.msg);
-        socket.emit('pong', {
-          msg: "The web browser also knows socket.io."
-        });
-      });
-    </script>
+    <script src="/yt.js"></script>
+    <script src="/bundle.js"></script>
   </head>
   <body>
     <span id="msg" style="font-family:courier">loading...</span>
