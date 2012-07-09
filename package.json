@@ -10,8 +10,10 @@
     "socket.io": "v0.8.x",
     "express": "v2.5.x",
     "youtube-player": "*",
-    "browserify":"1.13.5"
+    "browserify":"1.13.5",
+    "socket.io":"0.8.7"
   },
+  "browserify" : "youtube-sync/client.js",
   "engines": {
     "node": "0.6.x"
   },
