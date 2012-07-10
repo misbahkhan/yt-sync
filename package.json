@@ -7,11 +7,11 @@
   },
   "version": "0.1.1",
   "dependencies": {
-    "socket.io": "v0.8.x",
     "express": "v2.5.x",
     "youtube-player": "*",
-    "browserify":"1.13.5",
-    "socket.io":"0.8.7"
+    "browserify":"v1.13.5",
+    "socket.io":"v0.8.7",
+    "socket.io-client":"v0.9.6" 
   },
   "browserify" : "youtube-sync/client.js",
   "engines": {
